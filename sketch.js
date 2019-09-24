@@ -9,15 +9,15 @@
        game: "none",
        superHero: "Hulk",
        randomFact: "I love to eat olives."
-     }; {
+     };{
      firstName: "Toni",
      lastName: "Anguiano”,
-     color: “blue”,
-     animal: “cat”,
-     book: “The Bell Jar”,
-     movieGenre: “horror”,
-     superHero: “batman”,
-     randomFact: “I like to hangout in cemeteries and research dark California history.”,
+     color: "blue",
+     animal: "cat",
+     book: "The Bell Jar",
+     movie: "horror",
+     superHero: "batman",
+     randomFact: "I like to hangout in cemeteries and research dark California history.",
    }; {
    firstName: "Camila",
    lastName: "Avina Garcia",
@@ -118,15 +118,15 @@
   superHero: "Static Shock",
   randomFact:"I've had jaw correction surgery"
 };{
-  { firstName: “Matteo”,
-    lastName: “Leva”,
-    color: “Black”,
-    animal: “Cat”,
-    book: “Pillars of the earth",
-    movie:"The Godfather",
-    game: “Witcher 3",
-    superHero: "spider man",
-    randomFact:"I'm disappointed in GOT season 8", }
+  firstName: "Matteo",
+  lastName: "Leva",
+  color: "Black",
+  animal: "Cat",
+  book: "Pillars of the earth",
+  movie:"The Godfather",
+  game: "Witcher 3",
+  superHero: "spider man",
+  randomFact:"I'm disappointed in GOT season 8", }
 };{
   firstName: "xiaowei",
   lastName: "zheng",
@@ -175,7 +175,7 @@
    movie: "pulp fiction",
    game: "idk",
    superhero: "hate em all",
-    randomFact: "im grumpy" }
+  randomFact: "im grumpy" }
 };{
   firstName: "Vanessa",
   lastName: "Blacow-Berggen",
@@ -189,14 +189,26 @@
 };{
   firstName: "Anthony",
   lastName: "Valdovinos",
-  favoriteColor:"purple",
-  favoriteAnimal: "eagle",
-  favoriteBook: "Hatchet",
-  favoriteMovie: "Titanic",
-  favoriteGame: "Starfox Adventures",
-  favoriteSuperHero: "none", 
+  color:"purple",
+  animal: "eagle",
+  book: "Hatchet",
+  movie: "Titanic",
+  game: "Starfox Adventures",
+  superHero: "none",
   randomFact: "I studied Japanese for 4 years",
+};{
+  firstName: "Sierra",
+  lastName: "Roe",
+  color: "purple",
+  animal:"dog",
+  book:"phantom tollbooth",
+  movie:"Naussica of the Valley of the Wind",
+  game:"pokemon heartgold",
+  superhero:"captain marvel",
+  randomFact: "can run 7 minute mile",
+};{
 
+}
 
 let dog1 = {
        favoritecolor: "purple"
