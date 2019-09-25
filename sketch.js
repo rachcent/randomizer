@@ -28,7 +28,7 @@ let students= [{
       game: " Guitar Hero",
       superHero: "Spiderman",
       randomFact: "I have a twin",
-    }; {
+    }, {
       firstName: "Eddson",
       lastName: "Jose",
       color: "midnight blue",
@@ -48,7 +48,7 @@ let students= [{
       game: "No",
       superHero: "Thor",
       randomFact: "birds are tetrapods even though they only walk on two legs",
-    }; {
+    }, {
       firstName: "Chi",
       lastName: "Nguyen",
       color: "purple",
