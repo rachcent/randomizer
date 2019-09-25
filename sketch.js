@@ -11,7 +11,7 @@ let students= [{
       randomFact: "I love to eat olives."
     }, {
       firstName: "Toni",
-      lastName: "Anguiano”,
+      lastName: "Anguiano",
       color: "blue",
       animal: "cat",
       book: "The Bell Jar",
@@ -177,10 +177,10 @@ let students= [{
    superhero: "hate em all",
   randomFact: "im grumpy" }
   }, {
-  firstName: "Vanessa",
-  lastName: "Blacow-Berggen",
-  color: "pink",
-  animal:"cat",
+  firstName: "Vanessa",
+  lastName: "Blacow-Berggen",
+  color: "pink",
+  animal:"cat",
   book:"The Heartstriker series",
   superHero:"Spiderman",
   randomFact:"I really like cats, especially my cat",
