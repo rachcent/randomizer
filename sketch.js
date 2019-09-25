@@ -1,3 +1,5 @@
+let roster
+
 let roster = [{
       firstName: "Zainib",
       lastName: "Ahmed",
@@ -211,7 +213,8 @@ let roster = [{
  function setup() {
    createCanvas(600, 600);
    background(200);
-   console.log(random(roster)).colors);
+
+   console.log(random(roster));
  }
  //hello
  //hi
