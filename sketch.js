@@ -97,19 +97,19 @@ let students= [{
     game: "Fruit Ninja" ,
     superHero: "Batman" ,
     randomFact: "im a black belt",
-  },  {
-  firstName: "Chris",
-  lastName: "Weber",
-  color: "green",
-  animal: "cat",
-  book: "Hitchhiker's Guide to the Galaxy",
-  movie: "Spiderman Into The Spiderverse",
-  game: "The Legend of Zelda Breath of the Wild",
-  superHero: "Iron Man",
-  randomFact: "I'm vegetarian"
-  }, {
-  firstName: "Andy",
-  lastName: "Wu",
+    }, {
+    firstName: "Chris",
+    lastName: "Weber",
+    color: "green",
+    animal: "cat",
+    book: "Hitchhiker's Guide to the Galaxy",
+    movie: "Spiderman Into The Spiderverse",
+    game: "The Legend of Zelda Breath of the Wild",
+    superHero: "Iron Man",
+    randomFact: "I'm vegetarian"
+    }, {
+    firstName: "Andy",
+    lastName: "Wu",
   color: "Red",
   animal:"Kiwi",
   book: "Romance of the Three Kingdoms",
@@ -130,7 +130,7 @@ let students= [{
   }, {
   firstName: "xiaowei",
   lastName: "zheng",
-  color:" green",
+  color: "green",
   animal: "babies",
   book: "the little girl at the window",
   movie: "eat drink man woman",
@@ -141,7 +141,7 @@ let students= [{
   firstName: "Rachel",
   lastName: "Centinaje",
   color: "green",
-  animal:"dogs",
+  animal:"dog",
   book: "none",
   movie:"Drive",
   game: "Dishonored",
