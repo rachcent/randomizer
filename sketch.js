@@ -1,5 +1,8 @@
+let firstName
+let
+
  let roster = [] {
-     var me = {
+     var roster = {
        firstName: "Zainib",
        lastName: "Ahmed",
        color: "blue",
@@ -159,12 +162,12 @@
 };{
   firstName: "Hector",
   lastName: "Flores",
-  Color: "Blue",
-  Animal:"Dog",
-  Book:"Captain Underpants",
-  Movie:"Ace Ventura pet detective",
-  Game:"Smash Brothers",
-  Superhero:"Flash",
+  color: "Blue",
+  animal:"Dog",
+  book:"Captain Underpants",
+  movie:"Ace Ventura pet detective",
+  game:"Smash Brothers",
+  superHero:"Flash",
   randomFact:"I am a Libra",
 };{
   firstName: "asra",
@@ -206,42 +209,18 @@
   game:"pokemon heartgold",
   superhero:"captain marvel",
   randomFact: "can run 7 minute mile",
-};{
+}];
 
+ display(){
+  firstName();
 }
-
-let dog1 = {
-       favoritecolor: "purple"
-     }
-
-     let dog2 = {
-       favoritecolor: "grey"
-     }
-     name: "chow chow"
-   };
-
-   let dogs = [{
-       favoritecolor: "purple",
-       name: "fifi"
-     }, {
-       favoritecolor: "grey"
-     }
-   }
-   "chow chow",
-   "fifi",
-   "mr peabody"
-   "sylvester"];
-
  function setup() {
    createCanvas(600, 600);
    background(200);
+   console.log(roster[1]);
 
-   dogs[4] = "dennis"
-
-   console.log(dogs);
  }
  //hello
  //hi
  function draw() {
-   background(220);
  }
