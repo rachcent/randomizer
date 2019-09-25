@@ -71,7 +71,7 @@ let students= [{
     }, {
       firstName: "Hao",
       lastName: "Rong",
-      favoritecolor: hex(#4285F4),
+      favoritecolor: "hex",
       animal: "otter",
       book: "A Brief History of Time",
       movie: "Angry Birds 2",
@@ -126,7 +126,7 @@ let students= [{
   movie:"The Godfather",
   game: "Witcher 3",
   superHero: "spider man",
-  randomFact:"I'm disappointed in GOT season 8", }
+  randomFact:"I'm disappointed in GOT season 8",
   }, {
   firstName: "xiaowei",
   lastName: "zheng",
@@ -136,8 +136,8 @@ let students= [{
   movie: "eat drink man woman",
   game: "none",
   superHero: "none",
-  randomFact: "don't drink coke"
-  }, {
+  randomFact: "don't drink coke",
+  },  {
   firstName: "Rachel",
   lastName: "Centinaje",
   color: "green",
@@ -146,7 +146,7 @@ let students= [{
   movie:"Drive",
   game: "Dishonored",
   superHero: "Deadpool",
-  randomFact:"I went camping this weekend" };
+  randomFact:"I went camping this weekend",
   }, {
   firstName:"Alicia",
   lastName:"Breinke",
