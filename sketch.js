@@ -78,26 +78,26 @@ let students= [{
       game: "Final Fantasy XIV",
       superHero: "Tony Stark",
       randomFact: "I like cats.",
-    }, {
-    firstname: "Kaicong",
-    lastname: "Tang",
-    favcolor: "black",
-    animal: "dog",
-    movie: "iron man123",
-    game: "csgo",
-    superHero: "iron man",
-    randomFact: "love gaming"
-    }, {
-    firstName: "Sumedh",
-    lastName: "Vedanthi",
-    color:"Blue" ,
-    animal: "Crow",
-    book: "Of Mice and Men".
-    movie: "American Psycho",
-    game: "Fruit Ninja" ,
-    superHero: "Batman" ,
-    randomFact: "im a black belt",
-    }, {
+      }, {
+      firstname: "Kaicong",
+      lastname: "Tang",
+      favcolor: "black",
+      animal: "dog",
+      movie: "iron man123",
+      game: "csgo",
+      superHero: "iron man",
+      randomFact: "love gaming"
+      }, {
+      firstName: "Sumedh",
+      lastName: "Vedanthi",
+      color:"Blue" ,
+      animal: "Crow",
+      book: "Of Mice and Men",
+      movie: "American Psycho",
+      game: "Fruit Ninja" ,
+      superHero: "Batman" ,
+      randomFact: "im a black belt",
+      }, {
     firstName: "Chris",
     lastName: "Weber",
     color: "green",
@@ -175,7 +175,7 @@ let students= [{
    movie: "pulp fiction",
    game: "idk",
    superhero: "hate em all",
-  randomFact: "im grumpy" }
+  randomFact: "im grumpy",
   }, {
   firstName: "Vanessa",
   lastName: "Blacow-Berggen",
@@ -185,7 +185,7 @@ let students= [{
   superHero:"Spiderman",
   randomFact:"I really like cats, especially my cat",
   game: "Spyro Reignited Trilogy",
-  movie: "Cats Don't Dance"}
+  movie: "Cats Don't Dance",
   }, {
   firstName: "Anthony",
   lastName: "Valdovinos",
