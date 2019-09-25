@@ -1,5 +1,4 @@
-let roster
-
+//roster of classroom name, lastname,fav things
 let roster = [{
       firstName: "Zainib",
       lastName: "Ahmed",
@@ -10,7 +9,7 @@ let roster = [{
       game: "none",
       superHero: "Hulk",
       randomFact: "I love to eat olives."
-    }; {
+    }, {
       firstName: "Toni",
       lastName: "Anguiano”,
       color: "blue",
@@ -19,7 +18,7 @@ let roster = [{
       movie: "horror",
       superHero: "batman",
       randomFact: "I like to hangout in cemeteries and research dark California history.",
-    }; {
+    }, {
       firstName: "Camila",
       lastName: "Avina Garcia",
       color: "Green",
@@ -39,7 +38,7 @@ let roster = [{
       game: "Halo Reach",
       superHero: "Superman",
       randomFact: "I am made up of stardust"
-    }; {
+    }, {
       firstName: "Lydia",
       lastName: "Lim",
       color: "blue",
@@ -59,7 +58,7 @@ let roster = [{
       game: "Checkers",
       superHero: "Big Hero 6",
       randomFact: "Lately this year, monsters have especially been occupying my mind, among other things."
-    }; {
+    }, {
       firstName: "Leon",
       lastName: "Quach",
       favoritecolor: "silver",
@@ -69,7 +68,7 @@ let roster = [{
       game: "Pokemon Crystal Version",
       superHero: "Batman",
       randomFact: "I have two pet guinea pigs"
-    }; {
+    }, {
       firstName: "Hao",
       lastName: "Rong",
       favoritecolor: hex(#4285F4),
@@ -79,7 +78,7 @@ let roster = [{
       game: "Final Fantasy XIV",
       superHero: "Tony Stark",
       randomFact: "I like cats.",
-};{
+    }, {
     firstname: "Kaicong",
     lastname: "Tang",
     favcolor: "black",
@@ -88,7 +87,7 @@ let roster = [{
     game: "csgo",
     superHero: "iron man",
     randomFact: "love gaming"
-};{
+    }, {
     firstName: "Sumedh",
     lastName: "Vedanthi",
     color:"Blue" ,
@@ -98,7 +97,7 @@ let roster = [{
     game: "Fruit Ninja" ,
     superHero: "Batman" ,
     randomFact: "im a black belt",
-};{
+  },  {
   firstName: "Chris",
   lastName: "Weber",
   color: "green",
@@ -108,7 +107,7 @@ let roster = [{
   game: "The Legend of Zelda Breath of the Wild",
   superHero: "Iron Man",
   randomFact: "I'm vegetarian"
-};{
+  }, {
   firstName: "Andy",
   lastName: "Wu",
   color: "Red",
@@ -118,7 +117,7 @@ let roster = [{
   game: "Super Mario 64",
   superHero: "Static Shock",
   randomFact:"I've had jaw correction surgery"
-};{
+  },  {
   firstName: "Matteo",
   lastName: "Leva",
   color: "Black",
@@ -128,7 +127,7 @@ let roster = [{
   game: "Witcher 3",
   superHero: "spider man",
   randomFact:"I'm disappointed in GOT season 8", }
-};{
+  }, {
   firstName: "xiaowei",
   lastName: "zheng",
   color:" green",
@@ -138,7 +137,7 @@ let roster = [{
   game: "none",
   superHero: "none",
   randomFact: "don't drink coke"
-};{
+  }, {
   firstName: "Rachel",
   lastName: "Centinaje",
   color: "green",
@@ -148,7 +147,7 @@ let roster = [{
   game: "Dishonored",
   superHero: "Deadpool",
   randomFact:"I went camping this weekend" };
-};{
+  }, {
   firstName:"Alicia",
   lastName:"Breinke",
   color: "purple",
@@ -157,7 +156,7 @@ let roster = [{
   movie: "Spirited Away",
   superHero: "Wonder Woman",
   randomFact: "I want to live in another country someday"
-};{
+  }, {
   firstName: "Hector",
   lastName: "Flores",
   color: "Blue",
@@ -167,7 +166,7 @@ let roster = [{
   game:"Smash Brothers",
   superHero:"Flash",
   randomFact:"I am a Libra",
-};{
+  }, {
   firstName: "asra",
   lastName: "siddiqui",
   color: "idk",
@@ -177,7 +176,7 @@ let roster = [{
    game: "idk",
    superhero: "hate em all",
   randomFact: "im grumpy" }
-};{
+  }, {
   firstName: "Vanessa",
   lastName: "Blacow-Berggen",
   color: "pink",
@@ -187,7 +186,7 @@ let roster = [{
   randomFact:"I really like cats, especially my cat",
   game: "Spyro Reignited Trilogy",
   movie: "Cats Don't Dance"}
-};{
+  }, {
   firstName: "Anthony",
   lastName: "Valdovinos",
   color:"purple",
@@ -197,7 +196,7 @@ let roster = [{
   game: "Starfox Adventures",
   superHero: "none",
   randomFact: "I studied Japanese for 4 years",
-};{
+  }, {
   firstName: "Sierra",
   lastName: "Roe",
   color: "purple",
@@ -214,7 +213,7 @@ let roster = [{
    createCanvas(600, 600);
    background(200);
 
-   console.log(random(roster));
+    console.log(random(roster));
  }
  //hello
  //hi
