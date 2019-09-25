@@ -1,5 +1,5 @@
 //roster of classroom name, lastname,fav things
-let roster = [{
+let students= [{
       firstName: "Zainib",
       lastName: "Ahmed",
       color: "blue",
@@ -71,151 +71,151 @@ let roster = [{
     }, {
       firstName: "Hao",
       lastName: "Rong",
-      favoritecolor: hex(#4285F4),
-      animal: "otter",
-      book: "A Brief History of Time",
-      movie: "Angry Birds 2",
-      game: "Final Fantasy XIV",
-      superHero: "Tony Stark",
-      randomFact: "I like cats.",
-    }, {
-    firstname: "Kaicong",
-    lastname: "Tang",
-    favcolor: "black",
-    animal: "dog",
-    movie: "iron man123",
-    game: "csgo",
-    superHero: "iron man",
-    randomFact: "love gaming"
-    }, {
-    firstName: "Sumedh",
-    lastName: "Vedanthi",
-    color:"Blue" ,
-    animal: "Crow",
-    book: "Of Mice and Men".
-    movie: "American Psycho",
-    game: "Fruit Ninja" ,
-    superHero: "Batman" ,
-    randomFact: "im a black belt",
-  },  {
-  firstName: "Chris",
-  lastName: "Weber",
-  color: "green",
-  animal: "cat",
-  book: "Hitchhiker's Guide to the Galaxy",
-  movie: "Spiderman Into The Spiderverse",
-  game: "The Legend of Zelda Breath of the Wild",
-  superHero: "Iron Man",
-  randomFact: "I'm vegetarian"
-  }, {
-  firstName: "Andy",
-  lastName: "Wu",
-  color: "Red",
-  animal:"Kiwi",
-  book: "Romance of the Three Kingdoms",
-  movie:"Shrek 2",
-  game: "Super Mario 64",
-  superHero: "Static Shock",
-  randomFact:"I've had jaw correction surgery"
-  },  {
-  firstName: "Matteo",
-  lastName: "Leva",
-  color: "Black",
-  animal: "Cat",
-  book: "Pillars of the earth",
-  movie:"The Godfather",
-  game: "Witcher 3",
-  superHero: "spider man",
-  randomFact:"I'm disappointed in GOT season 8", }
-  }, {
-  firstName: "xiaowei",
-  lastName: "zheng",
-  color:" green",
-  animal: "babies",
-  book: "the little girl at the window",
-  movie: "eat drink man woman",
-  game: "none",
-  superHero: "none",
-  randomFact: "don't drink coke"
-  }, {
-  firstName: "Rachel",
-  lastName: "Centinaje",
-  color: "green",
-  animal:"dogs",
-  book: "none",
-  movie:"Drive",
-  game: "Dishonored",
-  superHero: "Deadpool",
-  randomFact:"I went camping this weekend" };
-  }, {
-  firstName:"Alicia",
-  lastName:"Breinke",
-  color: "purple",
-  animal: "dog",
-  book:"The Art of Racing in the Rain",
-  movie: "Spirited Away",
-  superHero: "Wonder Woman",
-  randomFact: "I want to live in another country someday"
-  }, {
-  firstName: "Hector",
-  lastName: "Flores",
-  color: "Blue",
-  animal:"Dog",
-  book:"Captain Underpants",
-  movie:"Ace Ventura pet detective",
-  game:"Smash Brothers",
-  superHero:"Flash",
-  randomFact:"I am a Libra",
-  }, {
-  firstName: "asra",
-  lastName: "siddiqui",
-  color: "idk",
-  animal: "chameleons",
-   book: "codex 1962",
-   movie: "pulp fiction",
-   game: "idk",
-   superhero: "hate em all",
-  randomFact: "im grumpy" }
-  }, {
-  firstName: "Vanessa",
-  lastName: "Blacow-Berggen",
-  color: "pink",
-  animal:"cat",
-  book:"The Heartstriker series",
-  superHero:"Spiderman",
-  randomFact:"I really like cats, especially my cat",
-  game: "Spyro Reignited Trilogy",
-  movie: "Cats Don't Dance"}
-  }, {
-  firstName: "Anthony",
-  lastName: "Valdovinos",
-  color:"purple",
-  animal: "eagle",
-  book: "Hatchet",
-  movie: "Titanic",
-  game: "Starfox Adventures",
-  superHero: "none",
-  randomFact: "I studied Japanese for 4 years",
-  }, {
-  firstName: "Sierra",
-  lastName: "Roe",
-  color: "purple",
-  animal:"dog",
-  book:"phantom tollbooth",
-  movie:"Naussica of the Valley of the Wind",
-  game:"pokemon heartgold",
-  superhero:"captain marvel",
-  randomFact: "can run 7 minute mile",
-}];
+      favoritecolor: hex(#4285F4),
+      animal: "otter",
+      book: "A Brief History of Time",
+      movie: "Angry Birds 2",
+      game: "Final Fantasy XIV",
+      superHero: "Tony Stark",
+      randomFact: "I like cats.",
+    }, {
+    firstname: "Kaicong",
+    lastname: "Tang",
+    favcolor: "black",
+    animal: "dog",
+    movie: "iron man123",
+    game: "csgo",
+    superHero: "iron man",
+    randomFact: "love gaming"
+    }, {
+    firstName: "Sumedh",
+    lastName: "Vedanthi",
+    color:"Blue" ,
+    animal: "Crow",
+    book: "Of Mice and Men".
+    movie: "American Psycho",
+    game: "Fruit Ninja" ,
+    superHero: "Batman" ,
+    randomFact: "im a black belt",
+  },  {
+  firstName: "Chris",
+  lastName: "Weber",
+  color: "green",
+  animal: "cat",
+  book: "Hitchhiker's Guide to the Galaxy",
+  movie: "Spiderman Into The Spiderverse",
+  game: "The Legend of Zelda Breath of the Wild",
+  superHero: "Iron Man",
+  randomFact: "I'm vegetarian"
+  }, {
+  firstName: "Andy",
+  lastName: "Wu",
+  color: "Red",
+  animal:"Kiwi",
+  book: "Romance of the Three Kingdoms",
+  movie:"Shrek 2",
+  game: "Super Mario 64",
+  superHero: "Static Shock",
+  randomFact:"I've had jaw correction surgery"
+  },  {
+  firstName: "Matteo",
+  lastName: "Leva",
+  color: "Black",
+  animal: "Cat",
+  book: "Pillars of the earth",
+  movie:"The Godfather",
+  game: "Witcher 3",
+  superHero: "spider man",
+  randomFact:"I'm disappointed in GOT season 8", }
+  }, {
+  firstName: "xiaowei",
+  lastName: "zheng",
+  color:" green",
+  animal: "babies",
+  book: "the little girl at the window",
+  movie: "eat drink man woman",
+  game: "none",
+  superHero: "none",
+  randomFact: "don't drink coke"
+  }, {
+  firstName: "Rachel",
+  lastName: "Centinaje",
+  color: "green",
+  animal:"dogs",
+  book: "none",
+  movie:"Drive",
+  game: "Dishonored",
+  superHero: "Deadpool",
+  randomFact:"I went camping this weekend" };
+  }, {
+  firstName:"Alicia",
+  lastName:"Breinke",
+  color: "purple",
+  animal: "dog",
+  book:"The Art of Racing in the Rain",
+  movie: "Spirited Away",
+  superHero: "Wonder Woman",
+  randomFact: "I want to live in another country someday"
+  }, {
+  firstName: "Hector",
+  lastName: "Flores",
+  color: "Blue",
+  animal:"Dog",
+  book:"Captain Underpants",
+  movie:"Ace Ventura pet detective",
+  game:"Smash Brothers",
+  superHero:"Flash",
+  randomFact:"I am a Libra",
+  }, {
+  firstName: "asra",
+  lastName: "siddiqui",
+  color: "idk",
+  animal: "chameleons",
+   book: "codex 1962",
+   movie: "pulp fiction",
+   game: "idk",
+   superhero: "hate em all",
+  randomFact: "im grumpy" }
+  }, {
+  firstName: "Vanessa",
+  lastName: "Blacow-Berggen",
+  color: "pink",
+  animal:"cat",
+  book:"The Heartstriker series",
+  superHero:"Spiderman",
+  randomFact:"I really like cats, especially my cat",
+  game: "Spyro Reignited Trilogy",
+  movie: "Cats Don't Dance"}
+  }, {
+  firstName: "Anthony",
+  lastName: "Valdovinos",
+  color:"purple",
+  animal: "eagle",
+  book: "Hatchet",
+  movie: "Titanic",
+  game: "Starfox Adventures",
+  superHero: "none",
+  randomFact: "I studied Japanese for 4 years",
+  }, {
+  firstName: "Sierra",
+  lastName: "Roe",
+  color: "purple",
+  animal:"dog",
+  book:"phantom tollbooth",
+  movie:"Naussica of the Valley of the Wind",
+  game:"pokemon heartgold",
+  superhero:"captain marvel",
+  randomFact: "can run 7 minute mile",
+}];
+
+
+ function setup() {
+   createCanvas(600, 600);
+   background(200);
 
-
- function setup() {
-   createCanvas(600, 600);
-   background(200);
-
-    console.log(random(roster));
- }
- //hello
- //hi
- function draw() {
+    console.log(random(students));
+ }
+ //hello
+ //hi
+ function draw() {
  }
