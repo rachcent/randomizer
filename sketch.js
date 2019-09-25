@@ -1,8 +1,5 @@
-let firstName
-let
 
- let roster = [] {
-     var roster = {
+ let roster = [{
        firstName: "Zainib",
        lastName: "Ahmed",
        color: "blue",
@@ -211,14 +208,11 @@ let
   randomFact: "can run 7 minute mile",
 }];
 
- display(){
-  firstName();
-}
+
  function setup() {
    createCanvas(600, 600);
    background(200);
-   console.log(roster[1]);
-
+   console.log(random(roster).color);
  }
  //hello
  //hi
