@@ -213,6 +213,7 @@ let randomIndex;
  function setup() {
    createCanvas(600, 600);
    background(200);
+   textSize(32);
 
 
 
@@ -223,8 +224,15 @@ let randomIndex;
  }
 
  function mousePressed(){
-   background(random(200,255));
+
+if (students[0]){
+   //this displays random name and splices it out of array
+   background(random(247, 235, 173));
    randomIndex = int(random(students.length));
-   text(students[randomIndex].lastName, 100, 100);
+   text(students[randomIndex].lastName, 250, 300);
    students.splice(randomIndex,1);
+}  else{
+  background(random(247, 235, 173));
+  text("nothing left", 50,50);
+}
 }
