@@ -208,14 +208,24 @@ let students= [{
   randomFact: "can run 7 minute mile",
 }];
 
-
+
+let randomIndex;
+
  function setup() {
    createCanvas(600, 600);
    background(200);
-
-    console.log(random(students));
+
+
+
  }
  //hello
  //hi
  function draw() {
  }
+
+ function mousePressed(){
+   background(random(200,255));
+   randomIndex = int(random(students.length));
+   text(students[randomIndex].lastName, 100, 100);
+   students.splice(randomIndex,1);
+}
