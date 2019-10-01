@@ -12,6 +12,8 @@ let textcolor;
    textSize(32);
 
 
+
+
    //snow.push(new snowflake());
    // Pick colors randomly
     r = random(255);
