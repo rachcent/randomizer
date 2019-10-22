@@ -1,14 +1,22 @@
 let randomIndex;
 let animating = false;
 let counter = 0;
-let snow =[];
 let r, g, b;
 let textcolor;
+let aes = [];
+
+function preload(){
+  for (let i = 0;i <= 9; i++){
+    aes[i] = loadImage(`assets/
+    image_${i}. JPG`)
+  }
+}
+
+
 
  function setup() {
    createCanvas(800, 800);
    background(200);
-
    textSize(32);
 
 
@@ -23,6 +31,7 @@ let textcolor;
 
 
    text("click to randomize",250,300);
+   console.log(aes);
    setTimeout(changeBackground,1000);
  }
 
