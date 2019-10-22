@@ -6,9 +6,9 @@ let textcolor;
 let aes = [];
 
 function preload(){
-  for (let i = 0;i <= 9; i++){
-    aes[i] = loadImage(`assets/
-    image_${i}. JPG`)
+  for (let i = 0;i <= 2; i++){
+    aes[i] = loadImage(`assets2/
+    bg_${i}. JPG`)
   }
 }
 
